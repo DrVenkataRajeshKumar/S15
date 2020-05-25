@@ -57,6 +57,26 @@ Endedup by ploting the image per each epoch i.e loss for mask images, loss for d
 * Trained for 20 epochs and oberved the variations in predictions [code](https://github.com/DrVenkataRajeshKumar/S15/blob/master/20epochs.ipynb)
 
 
+## Changes in loss function ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/22may.ipynb)
+* Till now only BCEWithLogitsLoss was used for both Mask image loss calculation and Depth image loss calculation.
+* SSIM is used for Depth images and BCEWithLogitsLoss is contined for mask images.
+
+## Changing the code into Modilar ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/modularcode.ipynb)
+
+## implementing the code onto entire 400k Dataset ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/S15Final.ipynb)
+
+
+* ploted images of Mask prediction loss
+![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/l%20m1.png)
+* ploted images of Depth prediction loss
+![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/l%20d%201.png)
+* ploted images of mask predictions
+![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/m1.png)
+* ploted images of Depth predictions
+![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/d1.png)
+* FgBg images
+![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/fgbg1.png)
+
 
 
 
