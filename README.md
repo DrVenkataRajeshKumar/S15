@@ -29,21 +29,26 @@ FgBg masks and Depth images were used to compare prediction and calculating loss
 * Tried transforms resize to small size to handle burden on the GPU.  
 * Tried gray scale transform because of 2 reasons.  
 **  1. as our predictions i.e mask images and depth images are in gray scale    
-**  2. to reduce the burden on GPU by reducing the weights, channels  
-
-only bg image and fgbg images were trained.
-1st issue encountered was to train 2 sets of images simultaniouly.
-Modified DNNcode so that it trains both set of images(bg and fgbg images) simultaniouly.
-
-to predict mask, Depth images thought of comparing the output layers to the actual masks and depth images and calculate the loss.
-this loss will be append to the next batch of images and so on..
-Tried serching documentations for different loss functions and their implimentations.
-tried different loss functons and endedup with using "BCEWithLogitsLoss"
+**  2. to reduce the burden on GPU by reducing the weights, channels 
+Ploted the images after transforms.
 
 
-Then the next issue to be addressed is ploting the loss n predictions..
-tried implementing tensorboard, but couldnt figureout cirtain issues.
-endedup in just ploting the image per each epoch i.e loss for mask images, loss for depth images, then mask prediction and deph prediction anf original fgbg image.
+* 1st issue encountered was to train 2 sets of images simultaniouly.  
+DNNcode was modified so that it trains both set of images(bg and fgbg images) simultaniouly.
+
+* 2 DNNs were used in this process.
+One is to calculate loss, and another one is to implement loss and predict Mask images and Depth images.
+While coding DNN, one has to choose between wider network or deep network.
+Wider networks can be used when number of classes to be predicted are more.
+Where as deeper networks will be advantgeous when multiple varients are present in given classes. 
+
+* Tried serching documentations for different loss functions and their implimentations.
+Tried different loss functons and endedup with using "BCEWithLogitsLoss"
+
+
+* Then the next issue to be addressed is ploting the loss and predictions..
+Tried implementing tensorboard, but couldnt figureout cirtain issues.
+Endedup by ploting the image per each epoch i.e loss for mask images, loss for depth images, then mask prediction and deph prediction anf original fgbg image.
 
 
 
