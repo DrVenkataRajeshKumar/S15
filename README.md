@@ -66,15 +66,15 @@ Endedup by ploting the image per each epoch i.e loss for mask images, loss for d
 ## implementing the code onto entire 400k Dataset ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/S15Final.ipynb)
 
 
-* ploted images of Mask prediction loss
+* ploted images of Mask prediction loss  
 ![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/l%20m1.png)
-* ploted images of Depth prediction loss
+* ploted images of Depth prediction loss  
 ![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/l%20d%201.png)
-* ploted images of mask predictions
+* ploted images of mask predictions  
 ![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/m1.png)
-* ploted images of Depth predictions
+* ploted images of Depth predictions  
 ![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/d1.png)
-* FgBg images
+* FgBg images  
 ![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/fgbg1.png)
 
 
