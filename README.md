@@ -62,12 +62,13 @@ Endedup by ploting the image per each epoch i.e loss for mask images, loss for d
 * SSIM is used for Depth images and BCEWithLogitsLoss is contined for mask images.
 
 ## Changing the code into Modular ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/modularcode.ipynb)  
-Converted code into modular code.  
+Converted code into modular code.
+
 ### [Library link](https://github.com/DrVenkataRajeshKumar/S15/tree/master/Library)
 
 
 ## Implementing the code onto entire 400k Dataset ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/S15Final.ipynb)
-
+implementing entire dataset to the code
 
 * ploted images of Mask prediction loss  
 ![Image](https://github.com/DrVenkataRajeshKumar/S15/blob/master/l%20m1.png)
