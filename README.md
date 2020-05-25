@@ -63,7 +63,7 @@ Endedup by ploting the image per each epoch i.e loss for mask images, loss for d
 
 ## Changing the code into Modular ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/modularcode.ipynb)  
 Converted code into modular code.  
-###[Library link](https://github.com/DrVenkataRajeshKumar/S15/tree/master/Library)
+### [Library link](https://github.com/DrVenkataRajeshKumar/S15/tree/master/Library)
 
 
 ## Implementing the code onto entire 400k Dataset ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/S15Final.ipynb)
