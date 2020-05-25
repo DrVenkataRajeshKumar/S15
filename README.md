@@ -50,6 +50,14 @@ Tried different loss functons and endedup with using "BCEWithLogitsLoss"
 Tried implementing tensorboard, but couldnt figureout cirtain issues.
 Endedup by ploting the image per each epoch i.e loss for mask images, loss for depth images, then mask prediction and deph prediction anf original fgbg image.
 
+* Trained for 2 epochs
+
+* Trained for 5 epochs and oberved the variations in predictions [code](https://github.com/DrVenkataRajeshKumar/S15/blob/master/15_trail_on_21_may.ipynb)
+
+* Trained for 20 epochs and oberved the variations in predictions [code](https://github.com/DrVenkataRajeshKumar/S15/blob/master/20epochs.ipynb)
+
+
+
 
 
 
