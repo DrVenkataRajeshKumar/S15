@@ -19,7 +19,7 @@
 "Have to generate Overlay masks and Depth images by DNN training of FgBg images and Bg images, without using opensource"
 
 
-### Basic architecture with small Data [Link to code](https://github.com/DrVenkataRajeshKumar/S15/blob/master/15_trail.ipynb)
+### Basic architecture with small Data ["code"](https://github.com/DrVenkataRajeshKumar/S15/blob/master/15_trail.ipynb)
 Initially set of 7800 images were taken as a group to tryout the basic architecture of code.
 100 Bg images, 7800 FgBg images and corresponding 7800 mask images of FgBg, 7800 Depth images were taken as Dataset.
 only Bg images and FgBg images were used in training.
@@ -27,8 +27,8 @@ FgBg masks and Depth images were used to compare prediction and calculating loss
 
 
 * Tried transforms resize to small size to handle burden on the GPU. Tried gray scale transform because of 2 reasons.
-**1. as our predictions i.e mask images and depth images are in gray scale
-**2. to reduce the burden on GPU by reducing the weights, channels
+** 1. as our predictions i.e mask images and depth images are in gray scale
+** 2. to reduce the burden on GPU by reducing the weights, channels
 
 only bg image and fgbg images were trained.
 1st issue encountered was to train 2 sets of images simultaniouly.
