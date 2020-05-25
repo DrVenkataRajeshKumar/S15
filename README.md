@@ -26,7 +26,8 @@ only Bg images and FgBg images were used in training.
 FgBg masks and Depth images were used to compare prediction and calculating loss'
 
 
-* Tried transforms resize to small size to handle burden on the GPU. Tried gray scale transform because of 2 reasons.  
+* Tried transforms resize to small size to handle burden on the GPU.  
+* Tried gray scale transform because of 2 reasons.  
 **  1. as our predictions i.e mask images and depth images are in gray scale    
 **  2. to reduce the burden on GPU by reducing the weights, channels  
 
