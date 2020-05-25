@@ -9,6 +9,8 @@
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/97.png)
 * Overlay images of Foreground on Background
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/overlay.png)
+* Masks of Overlay images
+![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/overlay%20mask.png)
 * Depth images
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
 
