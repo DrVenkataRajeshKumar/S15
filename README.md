@@ -1,7 +1,7 @@
 # S15
 
-## A Large Custom DataSet is created
-### [link to Diacription of DataSet creatin](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/README.md)
+## A Large Custom DataSet is created:
+### [link to Diacription of DataSet creation](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/README.md)
 400000 images were created using only 100 foreground images and 100 background images
 * Background images
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/9.png)
@@ -15,15 +15,20 @@
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
 
 
+## Problem Statement:
+"Have to generate Overlay masks and Depth images by training FgBg images and Bg images"
 
 
-set of 7800 images were taken as a group to tryout the initial architecture of code.
-100 bg images, 7800 fgbg images and corresponding 7800 mask images of fgbg, 7800 depth images were taken as dataset.
+### [Basic architecture with small Data]
+Initially set of 7800 images were taken as a group to tryout the basic architecture of code.
+100 Bg images, 7800 FgBg images and corresponding 7800 mask images of FgBg, 7800 Depth images were taken as Dataset.
+only Bg images and FgBg images were used in training.
+FgBg masks and Depth images were used to compare prediction and calculating loss'
 
 
-Tried transforms resize to small size to handle burden on the GPU. Tried gray scale transform because of 2 reasons.
-1. as our predictions i.e mask images and depth images are in gray scale
-2. to reduce the burden on GPU by reducing the weights, channels
+* Tried transforms resize to small size to handle burden on the GPU. Tried gray scale transform because of 2 reasons.
+**1. as our predictions i.e mask images and depth images are in gray scale
+**2. to reduce the burden on GPU by reducing the weights, channels
 
 only bg image and fgbg images were trained.
 1st issue encountered was to train 2 sets of images simultaniouly.
