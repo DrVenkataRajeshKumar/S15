@@ -1,7 +1,7 @@
 # S15
 
 ## A Large Custom DataSet is created:
-### [link to Diacription of DataSet creation](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/README.md)
+### [link to Discription of DataSet creation](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/README.md)
 400000 images were created using only 100 foreground images and 100 background images
 * Background images
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/9.png)
@@ -16,7 +16,7 @@
 
 
 ## Problem Statement:
-"Have to generate Overlay masks and Depth images by training FgBg images and Bg images"
+"Have to generate [Overlay masks] and [Depth images] by training FgBg images and Bg images"
 
 
 ### [Basic architecture with small Data]
