@@ -16,7 +16,7 @@
 
 
 ## Problem Statement:
-"Have to generate [Overlay masks] and [Depth images] by training FgBg images and Bg images"
+"Have to generate Overlay masks and Depth images by DNN training of FgBg images and Bg images, without using opensource"
 
 
 ### [Basic architecture with small Data]
