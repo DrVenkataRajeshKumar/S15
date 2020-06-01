@@ -77,7 +77,12 @@ class Net(nn.Module):
         x = x + r2
         x = self.layer4(x)
         #print(x.shape)
-        return x , x
+        f1 = self.convblock2(self.convblock1(bg_image))
+        f2 = self.convblock2(self.convblock1(bgfg_image))
+        f= torch.cat([f1,f2], dim=1)
+        #print(f.shape)
+        f = self.convblock4(self.convblock3(f))
+        return f , x
 
 
 
